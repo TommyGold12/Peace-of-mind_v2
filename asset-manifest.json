@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TommyGold12/peace-of/static/css/main.29099d28.css",
+    "main.js": "/TommyGold12/peace-of/static/js/main.4b3ed16b.js",
+    "index.html": "/TommyGold12/peace-of/index.html",
+    "main.29099d28.css.map": "/TommyGold12/peace-of/static/css/main.29099d28.css.map",
+    "main.4b3ed16b.js.map": "/TommyGold12/peace-of/static/js/main.4b3ed16b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29099d28.css",
+    "static/js/main.4b3ed16b.js"
+  ]
+}
