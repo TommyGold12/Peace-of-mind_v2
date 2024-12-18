@@ -25,7 +25,7 @@ const aboutInfo = [
 
 const destination = [
   {
-    name: "Stella Marina B&B",
+    name: "Stella Marina B&Ba",
     price: 230,
     bedroom: "2",
     rating: "4.8",
