@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TommyGold12/Peace-of-mind_v2/static/css/main.29099d28.css",
-    "main.js": "/TommyGold12/Peace-of-mind_v2/static/js/main.d3cfa48e.js",
-    "index.html": "/TommyGold12/Peace-of-mind_v2/index.html",
-    "main.29099d28.css.map": "/TommyGold12/Peace-of-mind_v2/static/css/main.29099d28.css.map",
-    "main.d3cfa48e.js.map": "/TommyGold12/Peace-of-mind_v2/static/js/main.d3cfa48e.js.map"
+    "main.css": "/Peace-of-Mind_v2/static/css/main.29099d28.css",
+    "main.js": "/Peace-of-Mind_v2/static/js/main.924521e7.js",
+    "index.html": "/Peace-of-Mind_v2/index.html",
+    "main.29099d28.css.map": "/Peace-of-Mind_v2/static/css/main.29099d28.css.map",
+    "main.924521e7.js.map": "/Peace-of-Mind_v2/static/js/main.924521e7.js.map"
   },
   "entrypoints": [
     "static/css/main.29099d28.css",
-    "static/js/main.d3cfa48e.js"
+    "static/js/main.924521e7.js"
   ]
 }
