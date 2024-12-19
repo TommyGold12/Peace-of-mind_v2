@@ -119,7 +119,7 @@ function Navline() {
         <div className="navlineLogo">
           <img
             alt="#"
-            src={`${process.env.PUBLIC_URL}/img/house-search-svgrepo-com.svg`}
+            //src={`${process.env.PUBLIC_URL}/img/house-search-svgrepo-com.svg`}
           ></img>
           <div className="logoText">
             <p>
@@ -144,7 +144,7 @@ function Header() {
       <div className="backgroundImg">
         <img
           alt="#"
-          src={`${process.env.PUBLIC_URL}/img/—Pngtree—luxury house on night with_15583679.png`}
+          //src={`${process.env.PUBLIC_URL}/img/—Pngtree—luxury house on night with_15583679.png`}
         ></img>{" "}
         <div className="container">
           <div className="bio">
@@ -182,7 +182,7 @@ function About() {
 function AboutCards({ item }) {
   return (
     <div className="card">
-      <img alt="#" src={`${process.env.PUBLIC_URL}/${item.img}`}></img>
+      <img alt="#" /*src={`${process.env.PUBLIC_URL}/${item.img}`}*/></img>
       <h3>{item.title}</h3>
       <p>{item.info}</p>
     </div>
@@ -407,9 +407,9 @@ function Item({ destination }) {
       <div className="imgEffect">
         <img
           alt="#"
-          src={`${process.env.PUBLIC_URL}/${
+          /*src={`${process.env.PUBLIC_URL}/${
             destination.images.split(",").map((e) => e.trim())[0]
-          }`}
+          }`}*/
         ></img>
         <button className="moreImage" onClick={() => openBio(destination)}>
           +
@@ -419,7 +419,7 @@ function Item({ destination }) {
       <div className="location">
         <img
           alt="#"
-          src={`${process.env.PUBLIC_URL}/img/location-pin-svgrepo-com.svg`}
+          /*src={`${process.env.PUBLIC_URL}/img/location-pin-svgrepo-com.svg`}*/
         ></img>
         <span>{destination.location}</span>
       </div>
@@ -449,9 +449,9 @@ function Bio({ item, onclose }) {
             </button>
             <img
               alt="#"
-              src={`${process.env.PUBLIC_URL}/${
+              /*src={`${process.env.PUBLIC_URL}/${
                 item.images.split(",").map((e) => e.trim())[step]
-              }`}
+              }`}*/
             ></img>
             <button
               onClick={() => {
@@ -471,7 +471,7 @@ function Bio({ item, onclose }) {
             <div className="location">
               <img
                 alt="#"
-                src={`${process.env.PUBLIC_URL}/img/location-pin-svgrepo-com.svg`}
+                /*src={`${process.env.PUBLIC_URL}/img/location-pin-svgrepo-com.svg`}*/
               ></img>
               <p>{item.location}</p>
             </div>
@@ -511,12 +511,12 @@ function SpecialOffers() {
 function SpecialItem({ name, price, bedroom, rating, bio, location, images }) {
   return (
     <div className="specialItem">
-      <img alt="#" src={`${process.env.PUBLIC_URL}/${images[0]}`}></img>
+      <img alt="#" /*src={`${process.env.PUBLIC_URL}/${images[0]}`}*/></img>
       <h3>{name}</h3>
       <div className="location">
         <img
           alt="#"
-          src={`${process.env.PUBLIC_URL}/img/location-pin-svgrepo-com.svg`}
+          //src={`${process.env.PUBLIC_URL}/img/location-pin-svgrepo-com.svg`}
         ></img>
         <span>{location}</span>
       </div>
@@ -548,35 +548,35 @@ function Footer() {
             <img
               onClick={() => window.alert("Coming soon...")}
               alt="#"
-              src={`${process.env.PUBLIC_URL}/imgIcons/facebook-round-svgrepo-com.svg`}
+              //src={`${process.env.PUBLIC_URL}/imgIcons/facebook-round-svgrepo-com.svg`}
             ></img>
           </div>
           <div className="icon">
             <img
               onClick={() => window.alert("Coming soon...")}
               alt="#"
-              src={`${process.env.PUBLIC_URL}/imgIcons/instagram-round-svgrepo-com.svg`}
+              //src={`${process.env.PUBLIC_URL}/imgIcons/instagram-round-svgrepo-com.svg`}
             ></img>
           </div>
           <div className="icon">
             <img
               onClick={() => window.alert("Coming soon...")}
               alt="#"
-              src={`${process.env.PUBLIC_URL}/imgIcons/linkedin-round-svgrepo-com.svg`}
+              //src={`${process.env.PUBLIC_URL}/imgIcons/linkedin-round-svgrepo-com.svg`}
             ></img>
           </div>
           <div className="icon">
             <img
               onClick={() => window.alert("Coming soon...")}
               alt="#"
-              src={`${process.env.PUBLIC_URL}/imgIcons/twitter-2-svgrepo-com.svg`}
+              //src={`${process.env.PUBLIC_URL}/imgIcons/twitter-2-svgrepo-com.svg`}
             ></img>
           </div>
           <div className="icon">
             <img
               onClick={() => window.alert("Coming soon...")}
               alt="#"
-              src={`${process.env.PUBLIC_URL}/imgIcons/youtube-round-svgrepo-com.svg`}
+              //src={`${process.env.PUBLIC_URL}/imgIcons/youtube-round-svgrepo-com.svg`}
             ></img>
           </div>
         </div>
